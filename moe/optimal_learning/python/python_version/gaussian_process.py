@@ -10,7 +10,7 @@ import copy
 
 import numpy
 
-import scipy.linalg
+#import scipy.linalg
 
 from moe.optimal_learning.python.interfaces.gaussian_process_interface import GaussianProcessInterface
 from moe.optimal_learning.python.python_version import python_utils

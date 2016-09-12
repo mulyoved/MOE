@@ -179,7 +179,7 @@ import collections
 
 import numpy
 
-import scipy.optimize
+#muly: import scipy.optimize
 
 from moe.optimal_learning.python.interfaces.optimization_interface import OptimizerInterface
 

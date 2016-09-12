@@ -10,8 +10,8 @@ import logging
 
 import numpy
 
-import scipy.linalg
-import scipy.stats
+#import scipy.linalg
+#import scipy.stats
 
 from moe.optimal_learning.python.constant import DEFAULT_EXPECTED_IMPROVEMENT_MC_ITERATIONS, DEFAULT_MAX_NUM_THREADS
 from moe.optimal_learning.python.interfaces.expected_improvement_interface import ExpectedImprovementInterface
