@@ -8,10 +8,15 @@ See https://github.com/Yelp/MOE/issues/461
 
 
 ## Install
-`pip install git+https://github.com/mulyoved/clientMOE.git@master`
+`pip install clientMOE`
 
 ## Eaxmples
 * python [start_moe_example.py](https://github.com/mulyoved/clientMOE/blob/master/start_moe_example.py) 
 * jupyter notebook [example.ipynb](https://github.com/mulyoved/clientMOE/blob/master/jupyter-examples/example.ipynb) 
 
+
+# Development
+## Publish PyPi package
+`python setup.py sdist register upload -r pypitest`
+`python setup.py sdist register upload -r pypi`
 

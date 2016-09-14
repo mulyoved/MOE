@@ -21,17 +21,16 @@ here = os.path.abspath(os.path.dirname(__file__))
 README = open(os.path.join(here, 'README.md')).read()
 
 
-CLASSIFIERS = """
-        Development Status :: 4 - Beta
-        Intended Audience :: Science/Research
-        Intended Audience :: Developers
-        Programming Language :: Python
-        Topic :: Software Development
-        Topic :: Scientific/Engineering
-        Operating System :: Unix
-        Operating System :: MacOS
-
-        """
+CLASSIFIERS = [
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Science/Research',
+        'Intended Audience :: Developers',
+        'Programming Language :: Python',
+        'Topic :: Software Development',
+        'Topic :: Scientific/Engineering',
+        'Operating System :: Unix',
+        'Operating System :: MacOS'
+        ]
 
 
 # If you change something here, change it in requirements.txt
@@ -47,12 +46,12 @@ MoeExecutable = namedtuple('MoeExecutable', ['env_var', 'exe_name'])
 
 setup(name='clientMOE',
       version='0.1',
-      description='Metric Optimization Engine',
+      description='Client API for MOE (Metric Optimization Engine)',
       long_description=README,
-      classifiers=[_f for _f in CLASSIFIERS.split('\n') if _f],
+      classifiers=CLASSIFIERS,
       author="Scott Clark and Eric Liu",
-      author_email='opensource+moe@yelp.com',
-      url='https://github.com/Yelp/MOE',
+      author_email='mulyoved@gmail.com',
+      url='https://github.com/mulyoved/clientMOE',
       keywords='bayesian global optimization optimal learning expected improvement experiment design',
       packages=find_packages(),
       include_package_data=True,
