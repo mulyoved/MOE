@@ -18,5 +18,6 @@ See https://github.com/Yelp/MOE/issues/461
 # Development
 ## Publish PyPi package
 `python setup.py sdist register upload -r pypitest`
+
 `python setup.py sdist register upload -r pypi`
 
